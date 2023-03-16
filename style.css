@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+}
+
+.user_data{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left_column{
+  background-image: url(/plant.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.image_author{
+  
+  
+}
