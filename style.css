@@ -157,3 +157,11 @@ input:valid{
   border:2px solid #596D48;
 }
 
+#passwordCheck{
+  font-size: .6rem;
+  font-weight: 600;
+  color: red;
+  display: block;
+  margin-top: 2px;
+  visibility: hidden;
+}

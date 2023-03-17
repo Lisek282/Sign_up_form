@@ -56,19 +56,38 @@
        </div>
        <div>
         <label for="email">EMAIL</label>
-        <input type="email" name="email" id="email" required>
+        <input 
+          type="email" 
+          name="email" 
+          id="email" 
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+          required>
        </div>
        <div>
         <label for="phoneNumber">PHONE NUMBER</label>
-        <input type="tel" name="phoneNumber" id="phoneNumber">
+        <input 
+          type="tel" 
+          name="phoneNumber" 
+          id="phoneNumber">
        </div>
        <div>
         <label for="password">PASSWORD</label>
-        <input type="password" name="password" id="password" required>
+        <input 
+          type="password" 
+          name="password" 
+          id="password" 
+          minlength="8"
+          required>
+          <p id="passwordCheck">*Passwords do not match</p>
        </div>
        <div>
         <label for="passwordConfirm">CONFIRM PASSWORD</label>
-        <input type="password" name="passwordConfirm" id="passwordConfirm" required>
+        <input 
+          type="password" 
+          name="passwordConfirm" 
+          id="passwordConfirm" 
+          minlength="8"
+          required>
        </div>
      </div>
    </section>
