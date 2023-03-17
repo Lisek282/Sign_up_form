@@ -12,11 +12,13 @@
 body{
   display: grid;
   grid-template-columns: 0.7fr 1fr;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .user_data{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 
 .left_column{
@@ -85,8 +87,73 @@ form{
 .part_two,
 .part_three{
   flex: 1;
+  padding-left: 3vw;
+  padding-right: 10vw;
+}
+
+.part_one{
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+}
+
+h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 1em;
+  padding-top: .2em;
 }
 
 label{
   display: block;
+  font-size: .6rem;
+  font-weight: 600;
+  padding-bottom: 2px;
 }
+
+button{
+  font-family: inherit;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: white;
+  background-color: #596D48;
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.part_three a{
+  color: #596D48;
+  font-weight: 600;
+}
+
+.part_three a:visited{
+  color: #596D48;
+}
+
+.part_three {
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+input{
+  border: 1px solid #E5E7EB;
+  border-radius: 5px;
+  line-height: 2;
+  font-family: inherit;
+}
+
+input:focus{
+  outline: none;
+  border: 1px solid blue;
+  box-shadow: 0 0 5px blue;
+}
+
+input:valid{
+  border:2px solid #596D48;
+}
+
