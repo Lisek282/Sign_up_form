@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Norse;
-  src: url(/Norse-Bold.otf);
+  src: url(./Norse-Bold.otf);
 }
 
 body{
@@ -23,7 +23,7 @@ body{
 }
 
 .left_column{
-  background-image: url(/plant.jpg);
+  background-image: url(./plant.jpg);
   background-size: cover;
   height: 100vh;
   display: flex;
