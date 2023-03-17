@@ -17,8 +17,9 @@ body{
 
 .user_data{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(2, minmax(200px, .5fr));
+  gap: 20px;
+  height: 80%;
 }
 
 .left_column{
@@ -74,7 +75,7 @@ form{
 
 .part_one,
 .part_three{
-  background-color: rgb(255, 247, 247);
+  background-color: rgb(233, 233, 233);
 }
 
 .part_two{
@@ -109,9 +110,9 @@ h2{
 
 label{
   display: block;
-  font-size: .6rem;
-  font-weight: 600;
-  padding-bottom: 2px;
+  font-size: .8rem;
+  font-weight: 500;
+  padding-bottom: 5px;
 }
 
 button{
@@ -143,8 +144,9 @@ button{
 input{
   border: 1px solid #E5E7EB;
   border-radius: 5px;
-  line-height: 2;
+  line-height: 2.5;
   font-family: inherit;
+  width: 100%;
 }
 
 input:focus{
